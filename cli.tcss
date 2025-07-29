@@ -1,1 +1,55 @@
+/* cli.tcss for DevFunApp */
 
+Screen {
+    align: center middle;
+    background: $surface;
+    overflow: hidden;
+}
+
+/* Style the new header */
+#app-header {
+    background: $primary-darken-2;
+    color: $text;
+    text-style: bold;
+}
+
+#content-container {
+    align: center middle;
+    width: auto;
+    height: auto;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 1;
+    width: 100%;
+}
+
+#menu {
+    border: round $primary;
+    width: 40;
+    height: auto;
+    padding: 0 1;
+}
+
+.menu-item {
+    padding: 0 2;
+    height: 1;
+    text-align: center;
+}
+
+.highlighted {
+    background: $primary;
+    color: $text;
+}
+
+#message-display {
+    margin-top: 1;
+    padding: 2 3;
+    width: 60;
+    height: auto;
+    min-height: 7;
+    border: round $secondary;
+    content-align: center middle;
+    background: $panel;
+}
