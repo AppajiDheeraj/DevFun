@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Logs and local data
+*.log
+*.sqlite3
+*.db
+
+# Compiled files
+*.so
+*.o
+*.exe
+*.dll
+*.out
+
+# Test/report artifacts
+htmlcov/
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# MyPy type checker
+.mypy_cache/
+
+# Textual cache (if used)
+.textual/
