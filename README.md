@@ -66,18 +66,18 @@ devfun/
 ---
 
 ## 📦 Dependencies
-textual — For creating beautiful TUI apps
+- textual — For creating beautiful TUI apps
 
-rich — For advanced terminal formatting
+- rich — For advanced terminal formatting
 
-httpx — For API calls (jokes & excuses)
+- httpx — For API calls (jokes & excuses)
 
 ## 🌐 APIs Used
-Official Joke API — Programming jokes
+- Official Joke API — Programming jokes
 
-WhatTheCommit — Random commit messages
+- WhatTheCommit — Random commit messages
 
-APIs are optional — fallback data is available offline if no internet connection.
+- APIs are optional — fallback data is available offline if no internet connection.
 
 ## 💡 Inspiration
 This project was born from a simple idea:
