@@ -4,11 +4,6 @@ Welcome to **DevFun**, a humorous and interactive terminal app that delivers jok
 
 Built with [Textual](https://www.textualize.io/), `DevFun` turns your terminal into a fun zone with beautifully styled UI and snappy interactions.
 
----
-
-## 📸 Preview
-
-> _Coming soon!_ (Add a GIF or screenshot here of the terminal UI in action)
 
 ---
 
@@ -78,6 +73,23 @@ devfun/
 - WhatTheCommit — Random commit messages
 
 - APIs are optional — fallback data is available offline if no internet connection.
+
+---
+
+## 📸 Preview
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/Photo1.png" width="300"/></td>
+    <td align="center"><img src="screenshots/Photo2.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/Photo3.png" width="300"/></td>
+    <td align="center"><img src="screenshots/Photo4.png" width="300"/></td>
+  </tr>
+</table>
+
+---
 
 ## 💡 Inspiration
 This project was born from a simple idea:
