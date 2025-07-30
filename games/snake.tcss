@@ -1,0 +1,13 @@
+
+#game-container {
+    padding: 1 2;
+    content-align: center middle;
+    text-align: center;
+    height: auto;
+}
+
+#score-display {
+    color: green;
+    align: center middle;  /* Correct syntax */
+    padding: 1;
+}
