@@ -3,6 +3,9 @@ from textual.app import App, ComposeResult
 from textual.containers import Center, Vertical
 from textual.widgets import Header, Footer, Static
 from rich.text import Text
+from rich.console import Console # Import Console for rich printing
+import time  # Import the time module for the delay
+import os    # Import the os module to clear the screen
 
 # Import tools
 from tools.dev_jokes import get_joke
@@ -105,5 +108,17 @@ class DevFunApp(App):
                 self.show_message_view(message, style)
 
 def run():
+    """Prints a launch message, waits, clears the screen, and then runs the app."""
+    console = Console()
+    # Print the launch message using rich for nice colors
+    console.print("\n[bold green]🚀 Launching DevFun! Fun awaiting...[/bold green]\n")
+    
+    # Wait for 2 seconds
+    time.sleep(1.5)
+    
+    # Clear the terminal screen (works on Windows, macOS, and Linux)
+    os.system('cls' if os.name == 'nt' else 'clear')
+    
+    # Launch the Textual app
     app = DevFunApp()
     app.run()
